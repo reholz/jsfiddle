@@ -1,0 +1,214 @@
+{
+  "books": [
+    {
+      "topic": "General",
+      "Title": "Stuff that Sucks: Accepting What You Can’t Change and Committing to What You Can",
+      "Author": "Ben Sedley",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "General",
+      "Title": "Mind Your Head",
+      "Author": "Juno Dawson",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "General",
+      "Title": "The Self-Esteem Team’s Guide to Sex, Drugs and WTFs!!",
+      "Author": "The Self-Esteem Team",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "General",
+      "Title": "Blame My Brain: The Amazing Teenage Brain Revealed",
+      "Author": "Nicola Morgan",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "General",
+      "Title": "Quiet the Mind",
+      "Author": "Matthew Johnstone",
+      "Content": "Fiction"
+    },
+    {
+      "topic": "General",
+      "Title": "I’ll Give You the Sun",
+      "Author": "Jandy Nelson",
+      "Content": "Fiction"
+    },
+    {
+      "topic": "General",
+      "Title": "Kite Spirit",
+      "Author": "Sita Brahmachari",
+      "Content": "Fiction"
+    },
+    {
+      "topic": "General",
+      "Title": "House of Windows",
+      "Author": "Alexia Casale",
+      "Content": "Fiction"
+    },
+    {
+      "topic": "General",
+      "Title": "Every Day",
+      "Author": "David Levithan",
+      "Content": "Fiction"
+    },
+    {
+      "topic": "ADD/ADHD",
+      "Title": "Putting on the Brakes: Understanding and Taking Control of Your ADD or ADHD",
+      "Author": "Patricia Quinn and Judith Stern",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Anxiety",
+      "Title": "My Anxious Mind: A Teen’s Guide to Managing Anxiety and Panic",
+      "Author": "Michael Tompkins and Katherine Martinez",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Anxiety",
+      "Title": "The Anxiety Survival Guide for Teens: CBT Skills to Overcome Fear, Worry and Panic",
+      "Author": "Jennifer Shannon",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Anxiety",
+      "Title": "The Shyness and Social Anxiety Workbook for Teens",
+      "Author": "Jennifer Shannon",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Anxiety",
+      "Title": "The Perks of Being a Wallflower",
+      "Author": "Stephen Chbosky",
+      "Content": "Fiction"
+    },
+    {
+      "topic": "Autism spectrum disorder",
+      "Title": "The Reason I Jump",
+      "Author": "Naoki Higashida, translated by David Mitchell",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Autism spectrum disorder",
+      "Title": "Freaks, Geeks and Asperger Syndrome: A User’s Guide to Adolescence",
+      "Author": "Luke Jackson",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Autism spectrum disorder",
+      "Title": "The Curious Incident of the Dog in the Night-time",
+      "Author": "Mark Haddon",
+      "Content": "Fiction"
+    },
+    {
+      "topic": "Bullying",
+      "Title": "Teen Life Confidential: Bullies, Cyberbullies and Frenemies",
+      "Author": "Michele Elliott",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Bullying",
+      "Title": "Vicious: True Stories by Teens About Bullying",
+      "Author": "Ed. Hope Vanderberg",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Confidence and self-esteem",
+      "Title": "Banish Your Self-Esteem Thief: A Cognitive Behavioural Therapy Workbook on Building Positive Self-esteem for Young People",
+      "Author": "Kate Collins-Donnelly",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Confidence and self-esteem",
+      "Title": "Teen Life Confidential: Self-Esteem and Being You",
+      "Author": "Anita Naik",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Confidence and self-esteem",
+      "Title": "Face",
+      "Author": "Benjamin Zephaniah",
+      "Content": "Fiction"
+    },
+    {
+      "topic": "Depression",
+      "Title": "Am I Depressed and What Can I Do About it?",
+      "Author": "Shirley Reynolds and Monika Parkinson",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Depression",
+      "Title": "I Had a Black Dog",
+      "Author": "Matthew Johnstone",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Depression",
+      "Title": "Can I Tell You About Depression?",
+      "Author": "Christopher Dowrick and Susan Martin",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Body image and eating",
+      "Title": "Can I Tell You About Eating Disorders?",
+      "Author": "Bryan Lask and Lucy Watson",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Body image and eating",
+      "Title": "Banish Your Body Image Thief",
+      "Author": "Kate Collins Donnelly",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Mood swings and anger",
+      "Title": "Tyranny",
+      "Author": "Lesley Fairfield",
+      "Content": "Fiction"
+    },
+    {
+      "topic": "OCD",
+      "Title": "Don’t Let Your Emotions Run Your Life for Teens",
+      "Author": "Sheri van Dijk",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "OCD",
+      "Title": "Touch and Go Joe",
+      "Author": "Joe Wells",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "OCD",
+      "Title": "Breaking Free from OCD: A CBT Guide for Young People and their Families",
+      "Author": "Jo Derisley, Isobel Heyman, Sarah Robinson, Cynthia Turner",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "OCD",
+      "Title": "The Unlikely Hero of Room 13B",
+      "Author": "Teresa Toten",
+      "Content": "Fiction"
+    },
+    {
+      "topic": "Self harm",
+      "Title": "The Truth About Self-harm",
+      "Author": "Celia Richardson",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Stress",
+      "Title": "Fighting Invisible Tigers: A Stress Management Guide for Teens",
+      "Author": "Earl Hipp",
+      "Content": "Nonfiction"
+    },
+    {
+      "topic": "Stress",
+      "Title": "Teenage Guide to Stress",
+      "Author": "Nicola Morgan",
+      "Content": "Nonfiction"
+    }
+  ]
+}
