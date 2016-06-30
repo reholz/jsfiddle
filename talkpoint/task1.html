@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>Task 1</title>
 
 <style>
 p, div, ul, li, td, input, select, h1, h2, h3, h4 {
@@ -51,7 +51,8 @@ a.button:active, a.button:link, a.button:visited, span.button, input.button, but
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
-$(document).ready(function(){						   
+$(document).ready(function(){
+						   
   $("#buttonReverse").click(function(){
 	$('ul').append($('ul').find('li').get().reverse());
   });
@@ -72,15 +73,16 @@ $(document).ready(function(){
 	$randomNum = Math.floor((Math.random() * 25) + 1);										
 	$('ul').append("<li>" + $randomNum + "</li>");
   });
+  
   $("#buttonRemoveNumbers").click(function(){
 	$('li').each(function() {
 		if ($.isNumeric($(this).text()))
 	  		$(this).remove();
 	});	
   });
+  
 });
 </script>
-
 
 </body>
 </html>
