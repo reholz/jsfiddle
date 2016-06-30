@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Untitled Document</title>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(73, 73, 73);
+        font-size: 13px;
+    }
+    
+    .widgets {
+        margin-top: 10px;
+        width: 200px;
+    }
+    
+    .widgets__inner {
+        border: 1px solid lightgrey;
+        padding: 12px
+    }
+    
+    h1 {
+        font-size: 24px;
+        color: rgb(140, 140, 140);
+        font-weight: normal;
+        margin: 0 0 1.3em;
+    }
+    
+    h1>span {
+        display: inline;
+        padding: 0 4px 0 2px;
+        border-radius: 50%;
+        background-color: rgb(239, 138, 83);
+        color: white;
+        font-size: 9px;
+        vertical-align: top;
+        font-weight: bold
+    }
+    
+    .option {
+        height: 35px;
+    }
+    
+    .switch {
+        position: relative;
+        top: -20px;
+        left: 10px
+    }
+    
+    input {
+        display: none;
+    }
+    
+    .slide {
+        position: absolute;
+        cursor: pointer;
+        width: 108px;
+        height: 28px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgb(206,213,221);
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 3px;
+        font-size: 11px;
+		line-height:30px;
+    }
+    
+    .slide:before {
+        position: absolute;
+        content: "Open";
+        height: 28px;
+        width: 54px;
+        background-color: rgb(117, 186, 32);
+        color: white;
+        text-align: center;
+        border-radius: 3px;
+        text-transform: uppercase;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    
+    input:checked + .slide:before {
+        -webkit-transform: translateX(54px);
+        -ms-transform: translateX(54px);
+        transform: translateX(54px);
+        content: "Closed";
+        background-color: rgb(204, 0, 0);
+    }
+    
+    .button {
+        text-align: center;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .button>div {
+        background-color: #666;
+        width: 82px;
+        margin: 10px auto 0;
+        padding: 5px 10px;
+        font-size: 12px;
+        border-radius:2px;
+    }
+    
+    .button>div:hover {
+        background-color: #555;
+    }
+    
+    .modal-body {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 10;
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    .modal-body:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .modal-body > div {
+        width: 400px;
+        position: relative;
+        margin: 10% auto;
+        padding: 5px 15px;
+        background: #fff;
+    }
+    
+    .close {
+        background-color: rgb(239, 138, 83);
+        color:#fff;
+		position: absolute;
+        right: -10px;
+        top: -10px;
+        width: 24px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+		border-radius:50%;
+		width:20px;
+		height:20px;
+		line-height:15px;
+		text-align:center;
+    }
+    </style>
+</head>
+<img src="http://cc.talkpoint.com/amor001/FE-DEV42/widget.png" />
+<div class="widgets">
+    <div class="widgets__inner">
+        <h1>My Widgets <span>?</span></h1>
+        <div class="option">
+            Widget 1
+            <label class="switch">
+                <input type="checkbox" />
+                <div class="slide"></div>
+            </label>
+        </div>
+        <div class="option">
+            Widget 2
+            <label class="switch">
+                <input type="checkbox" />
+                <div class="slide"></div>
+            </label>
+        </div>
+        <div class="option">
+            Widget 3
+            <label class="switch">
+                <input type="checkbox" />
+                <div class="slide"></div>
+            </label>
+        </div>
+        <a href="#modal" class="button">
+            <div>More Options</div>
+        </a>
+    </div>
+</div>
+<!-- Modal -->
+<div id="modal" class="modal-body">
+    <div>
+        <p>Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Est enim effectrix multarum et magnarum voluptatum. Quos quidem tibi studiose et diligenter tractandos magnopere censeo. Nihil ad rem! Ne sit sane; Occultum facinus esse potuerit, gaudebit; Quid de Platone aut de Democrito loquar? </p>
+        <a href="#close" class="close">x</a>
+    </div>
+</div>
+
+<body>
+</body>
+
+</html>

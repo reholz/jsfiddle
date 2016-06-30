@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<style>
+p, div, ul, li, td, input, select, h1, h2, h3, h4 {
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+}
+span{font-weight:bold}
+#box {
+    background-color: #fff;
+    border: 1px dotted #ccc;
+    margin: 10px 25px;
+    padding: 10px;
+    width: 200px;
+}
+a.button:active, a.button:link, a.button:visited, span.button, input.button, button.button {
+    background-color: #636363;
+    border: 0 none;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+}
+</style>
+</head>
+
+<body>
+
+<div id="box">
+  <ul>
+    <li>New York</li>
+    <li>Alabama</li>
+    <li>Illinois</li>
+  </ul>
+</div>
+<input class="button" id="buttonReverse" value="Reverse List" type="button">
+<input class="button" id="buttonAlphabetize" value="Alphabetize" type="button">
+<input class="button" id="buttonRandomNumber" value="Add a Random Number" type="button">
+<input class="button" id="buttonRemoveNumbers" value="Remove Numbers" type="button">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){						   
+  $("#buttonReverse").click(function(){
+	$('ul').append($('ul').find('li').get().reverse());
+  });
+  
+  $("#buttonAlphabetize").click(function(){
+	var items = [];
+	$('li').each(function() {
+		items.push($(this).text());
+	});
+	items.sort();
+	$.each(items, function(i, li){
+        $('ul').append($('li')[i]);
+    });
+	console.log(items);
+  });
+  
+  $("#buttonRandomNumber").click(function(){
+	$randomNum = Math.floor((Math.random() * 25) + 1);										
+	$('ul').append("<li>" + $randomNum + "</li>");
+  });
+  $("#buttonRemoveNumbers").click(function(){
+	$('li').each(function() {
+		if ($.isNumeric($(this).text()))
+	  		$(this).remove();
+	});	
+  });
+});
+</script>
+
+
+</body>
+</html>
